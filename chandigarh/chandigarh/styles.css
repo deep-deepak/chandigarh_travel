@@ -10,7 +10,7 @@ body {
     position: fixed;
     opacity: 0.8;
     width: 100%;
-    background-image: linear-gradient(#373B44,#4286f4);
+    background-image: linear-gradient(#373B44, #4286f4);
     font-weight: bold;
     padding: 20px;
     border-radius: 0;
@@ -107,6 +107,7 @@ body {
 /* Add custom styling for the card */
 
 .card {
+    height: 520px;
     padding: 10px;
     width: auto;
     border-radius: 10px;
@@ -363,8 +364,54 @@ section.regiter {
 
 /* copyright */
 
-section.copyright{
+section.copyright {
     padding: 10px;
     color: #fff;
     background-color: #000000;
+}
+
+hr {
+    height: 2px;
+    margin-top: 0;
+    /* top: 0px; */
+    width: 80px;
+    margin-left: 15px;
+    background: #007bff;
+}
+
+@media only screen and (max-width: 1200px) {
+    .card {
+        height: 680px;
+        padding: 10px;
+        width: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        height: 650px;
+        padding: 10px;
+        width: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .card {
+        height: 650px;
+        padding: 10px;
+        width: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+    }
 }
