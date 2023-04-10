@@ -185,6 +185,17 @@ i.bi {
     font-size: 25px;
     padding: 5px;
     cursor: pointer;
+    margin-right: 10px;
+}
+
+i.bi:hover {
+    background-color: #0069d9;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
 }
 
 section.footer h2 {
@@ -217,7 +228,7 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #0069d9;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -226,7 +237,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #0069d9;
 }
 
 
@@ -304,11 +315,11 @@ input[type=submit]:hover {
 
 .login-form input[type="email"]:focus,
 .login-form input[type="password"]:focus {
-    border-color: #4CAF50;
+    border-color: #0069d9;
 }
 
 .login-form input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #0069d9;
     border: none;
     border-radius: 5px;
     color: #ffffff;
@@ -335,7 +346,7 @@ input[type=submit]:hover {
 }
 
 .login-form p a {
-    color: #4CAF50;
+    color: #0069d9;
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s ease;
